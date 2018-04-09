@@ -24,7 +24,7 @@ function nowServing(katzDeliLine){
     for (var i = 0; i < katzDeliLine.length; i++) {
       newArray.push(`${i + 1}. ${katzDeliLine[i]}`);
        } 
-        return `The line is currently: ${array.join(", ")}`;
+        return `The line is currently: ${newArray.join(", ")}`;
   }}
   
 
